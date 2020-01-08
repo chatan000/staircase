@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="cdA]zxj{3LY#!P(?Q9(T">Player</variable><variable type="KIND_SpriteKind" id="k0eE937n]AyQ($wd)I5d">Projectile</variable><variable type="KIND_SpriteKind" id="[#Y(M=u(^v{TM4OSZ)Zm">Food</variable><variable type="KIND_SpriteKind" id="e66:2QlO`y}uI?X5iW]?">Enemy</variable><variable id="UbCzf0*z*xSbdKNLiCcg">mySprite</variable><variable id=":+Lm${sG+SiglJ1jE[H*">juan</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id=":+Lm${sG+SiglJ1jE[H*">juan</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 1 1 1 1 1 . . . . . . 
+. . . . 1 . . . . . 1 . . . . . 
+. . . . 1 . 6 . 6 . 1 . . . . . 
+. . . . 1 . . . . . 1 . . . . . 
+. . . . 1 4 4 4 4 4 1 . . . . . 
+. . . . . 1 1 1 1 1 . . . . . . 
+. . . . . . . 1 . . . . . . . . 
+. . . . . . . 1 . . . . . . . . 
+. . . . . . . 1 . . . . . . . . 
+. . . . . . . 1 . . . . . . . . 
+. . . . . . 1 . 1 . . . . . . . 
+. . . . . 1 . . . 1 . . . . . . 
+. . . . 1 . . . . . 1 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="UbCzf0*z*xSbdKNLiCcg">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . 4 4 4 4 4 4 4 . . . . . 
+. . . 4 4 . . . . . 4 4 . . . . 
+. . . 4 . . 8 . . 8 . 4 . . . . 
+. . 4 4 . . . . . . . 4 4 . . . 
+. . 4 4 . c . . . . c . 4 . . . 
+. . . 4 4 . c c c c . 4 4 . . . 
+. . . . 4 4 4 . . . 4 4 . . . . 
+. . . . . . 4 7 4 4 4 . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . 7 7 7 . . . . . . . 
+. . . . . 7 . . . 7 . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">13</field></shadow></value><next><block type="controls_repeat_ext"><comment id="undefined" pinned="true" h="526.6666564941406" w="438.888916015625">Stairs are going down
+Goal 2: make second character. make it go in opposite direction of first staircase
+Goal 1: is to make stairs to also go up</comment><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">6</field></shadow></value><statement name="DO"><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id=":+Lm${sG+SiglJ1jE[H*">juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value><next><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id=":+Lm${sG+SiglJ1jE[H*">juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></statement></block></xml>
